@@ -74,7 +74,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 console.log("entry point");
 
-const showAlert = () => {
+let showAlert = () => {
     console.log(window.test);
     console.log("Hello, world!");
 };
