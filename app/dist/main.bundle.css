@@ -1,0 +1,11 @@
+body div.top {
+  text-align: center; }
+
+body div.main {
+  width: 80%;
+  margin: 0 auto; }
+
+body footer {
+  width: 80%;
+  text-align: center;
+  font-size: 10pt; }
