@@ -1,7 +1,7 @@
 import "./styles/styles.scss";
 console.log("entry point");
 
-const showAlert = () => {
+let showAlert = () => {
     console.log(window.test);
     console.log("Hello, world!");
 }
