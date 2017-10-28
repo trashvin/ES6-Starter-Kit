@@ -7,10 +7,25 @@ body {
             width: 80%;
             margin:0 auto;
         }
+        &.row
+        {
+            display: table;
+            table-layout: fixed; /*Optional*/
+            border-spacing: 10px; /*Optional*/
+        }
+        &.column
+        {
+            display: table-cell;
+        }
+        padding: 10px;
+    }
+    .center {
+        margin: auto;
+        text-align: center;
     }
     footer {
-        width: 80%;
         text-align: center;
-        font-size: 10pt;
+        font-size: 12pt;
     }
+
 }

@@ -1,9 +1,10 @@
 import "./styles/styles.scss";
 console.log("entry point");
 
-let showAlert = () => {
-    console.log(window.test);
-    console.log("Hello, world!");
-}
+// function showAlert() {
+//     console.log(window.test);
+//     console.log("Hello, world!");
+// }
 
-window.showAlert = showAlert;
+// module.exports = showAlert;
+// window.showAlert = showAlert;

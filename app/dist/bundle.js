@@ -74,12 +74,13 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 console.log("entry point");
 
-let showAlert = () => {
-    console.log(window.test);
-    console.log("Hello, world!");
-};
+// function showAlert() {
+//     console.log(window.test);
+//     console.log("Hello, world!");
+// }
 
-window.showAlert = showAlert;
+// module.exports = showAlert;
+// window.showAlert = showAlert;
 
 /***/ }),
 /* 1 */
