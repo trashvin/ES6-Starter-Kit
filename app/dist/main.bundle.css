@@ -1,25 +1,23 @@
-body div.top {
+body div {
+  padding: 10px; }
+  body div.top {
+    text-align: center; }
+  body div.main {
+    width: 80%;
+    margin: 0 auto; }
+  body div.row {
+    display: table;
+    table-layout: fixed;
+    /*Optional*/
+    border-spacing: 10px;
+    /*Optional*/ }
+  body div.column {
+    display: table-cell; }
+
+body .center {
+  margin: auto;
   text-align: center; }
 
-body div.main {
-  width: 80%;
-  margin: 0 auto; }
-
-body div.row {
-  display: table;
-  width: 100%;
-  /*Optional*/
-  table-layout: fixed;
-  /*Optional*/
-  border-spacing: 10px;
-  /*Optional*/ }
-
-body div.column {
-  display: table-cell;
-  background-color: red;
-  /*Optional*/ }
-
 body footer {
-  width: 80%;
   text-align: center;
-  font-size: 10pt; }
+  font-size: 12pt; }
